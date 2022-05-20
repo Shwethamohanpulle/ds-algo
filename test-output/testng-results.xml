@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="3" ignored="0" total="27" passed="23" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-15T15:24:15 PDT" name="DSPortal Heroku Application Test Automation Test Suite " finished-at="2022-05-15T15:25:07 PDT" duration-ms="51672">
+    <groups>
+    </groups>
+    <test started-at="2022-05-15T15:24:15 PDT" name="DSPortal Heroku Application linkedlist Test Cases" finished-at="2022-05-15T15:24:28 PDT" duration-ms="12601">
+      <class name="com.dsalgo.qa.testcases.LinkedListTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.dsalgo.qa.testcases.LinkedListTest@2bfbffb2]" started-at="2022-05-15T15:24:15 PDT" name="setUp" finished-at="2022-05-15T15:24:19 PDT" duration-ms="3331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="linkedListTest()[pri:0, instance:com.dsalgo.qa.testcases.LinkedListTest@2bfbffb2]" started-at="2022-05-15T15:24:19 PDT" name="linkedListTest" finished-at="2022-05-15T15:24:28 PDT" duration-ms="8989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkedListTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcases.LinkedListTest@2bfbffb2]" started-at="2022-05-15T15:24:28 PDT" name="tearDown" finished-at="2022-05-15T15:24:28 PDT" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dsalgo.qa.testcases.LinkedListTest -->
+    </test> <!-- DSPortal Heroku Application linkedlist Test Cases -->
+    <test started-at="2022-05-15T15:24:28 PDT" name="DSPortal Heroku Application tree Test Cases " finished-at="2022-05-15T15:24:54 PDT" duration-ms="25492">
+      <class name="com.dsalgo.qa.testcases.TreeTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:28 PDT" name="setUp" finished-at="2022-05-15T15:24:32 PDT" duration-ms="3657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="portalTest()[pri:1, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:32 PDT" name="portalTest" description="verifying portal page title test" finished-at="2022-05-15T15:24:33 PDT" duration-ms="1560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- portalTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:2, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:34 PDT" name="loginTest" description="verifying login test" data-provider="LoginData" finished-at="2022-05-15T15:24:35 PDT" duration-ms="691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NumpyNinja]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QAAUTOMATION]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:2, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:35 PDT" name="loginTest" description="verifying login test" data-provider="LoginData" finished-at="2022-05-15T15:24:36 PDT" duration-ms="1117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NimpyNinja]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QAAUTOMATION]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method retried="true" signature="treeTest()[pri:3, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:36 PDT" name="treeTest" description="verifying tree page" finished-at="2022-05-15T15:24:36 PDT" duration-ms="171" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Tree12345] but found [Tree]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Tree12345] but found [Tree]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.dsalgo.qa.testcases.TreeTest.treeTest(TreeTest.java:149)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- treeTest -->
+        <test-method retried="true" signature="treeTest()[pri:3, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:36 PDT" name="treeTest" description="verifying tree page" finished-at="2022-05-15T15:24:36 PDT" duration-ms="162" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Tree12345] but found [Tree]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Tree12345] but found [Tree]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.dsalgo.qa.testcases.TreeTest.treeTest(TreeTest.java:149)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- treeTest -->
+        <test-method retried="true" signature="treeTest()[pri:3, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:36 PDT" name="treeTest" description="verifying tree page" finished-at="2022-05-15T15:24:37 PDT" duration-ms="168" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Tree12345] but found [Tree]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Tree12345] but found [Tree]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.dsalgo.qa.testcases.TreeTest.treeTest(TreeTest.java:149)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- treeTest -->
+        <test-method signature="treeTest()[pri:3, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:37 PDT" name="treeTest" description="verifying tree page" finished-at="2022-05-15T15:24:37 PDT" duration-ms="170" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Tree12345] but found [Tree]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Tree12345] but found [Tree]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.dsalgo.qa.testcases.TreeTest.treeTest(TreeTest.java:149)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- treeTest -->
+        <test-method signature="treeLink1Test()[pri:4, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:37 PDT" name="treeLink1Test" finished-at="2022-05-15T15:24:39 PDT" duration-ms="1636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- treeLink1Test -->
+        <test-method signature="link1EditorTest()[pri:5, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:39 PDT" name="link1EditorTest" finished-at="2022-05-15T15:24:40 PDT" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- link1EditorTest -->
+        <test-method signature="treelink2Test()[pri:6, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:40 PDT" name="treelink2Test" finished-at="2022-05-15T15:24:40 PDT" duration-ms="903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- treelink2Test -->
+        <test-method signature="link2EditorTest()[pri:7, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:40 PDT" name="link2EditorTest" finished-at="2022-05-15T15:24:41 PDT" duration-ms="870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- link2EditorTest -->
+        <test-method signature="treelink3Test()[pri:8, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:41 PDT" name="treelink3Test" finished-at="2022-05-15T15:24:42 PDT" duration-ms="984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- treelink3Test -->
+        <test-method signature="link3EditorTest()[pri:9, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:42 PDT" name="link3EditorTest" finished-at="2022-05-15T15:24:43 PDT" duration-ms="963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- link3EditorTest -->
+        <test-method signature="treelink4Test()[pri:10, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:43 PDT" name="treelink4Test" finished-at="2022-05-15T15:24:44 PDT" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- treelink4Test -->
+        <test-method signature="link4EditorTest()[pri:11, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:44 PDT" name="link4EditorTest" finished-at="2022-05-15T15:24:45 PDT" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- link4EditorTest -->
+        <test-method signature="treelink5Test()[pri:12, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:45 PDT" name="treelink5Test" finished-at="2022-05-15T15:24:46 PDT" duration-ms="908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- treelink5Test -->
+        <test-method signature="link5EditorTest()[pri:13, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:46 PDT" name="link5EditorTest" finished-at="2022-05-15T15:24:47 PDT" duration-ms="870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- link5EditorTest -->
+        <test-method signature="treelink6Test()[pri:14, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:47 PDT" name="treelink6Test" finished-at="2022-05-15T15:24:48 PDT" duration-ms="942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- treelink6Test -->
+        <test-method signature="link6EditorTest()[pri:15, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:48 PDT" name="link6EditorTest" finished-at="2022-05-15T15:24:49 PDT" duration-ms="823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- link6EditorTest -->
+        <test-method signature="treelink7Test()[pri:16, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:49 PDT" name="treelink7Test" finished-at="2022-05-15T15:24:50 PDT" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- treelink7Test -->
+        <test-method signature="link7EditorTest()[pri:17, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:50 PDT" name="link7EditorTest" finished-at="2022-05-15T15:24:50 PDT" duration-ms="934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- link7EditorTest -->
+        <test-method signature="treelink8Test()[pri:18, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:50 PDT" name="treelink8Test" finished-at="2022-05-15T15:24:52 PDT" duration-ms="1233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- treelink8Test -->
+        <test-method signature="link8EditorTest()[pri:19, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:52 PDT" name="link8EditorTest" finished-at="2022-05-15T15:24:53 PDT" duration-ms="1277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- link8EditorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcases.TreeTest@773e2eb5]" started-at="2022-05-15T15:24:53 PDT" name="tearDown" finished-at="2022-05-15T15:24:54 PDT" duration-ms="530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dsalgo.qa.testcases.TreeTest -->
+    </test> <!-- DSPortal Heroku Application tree Test Cases  -->
+    <test started-at="2022-05-15T15:24:54 PDT" name="DSPortal Heroku Application Data Structue Test Cases" finished-at="2022-05-15T15:25:07 PDT" duration-ms="13549">
+      <class name="com.dsalgo.qa.testcases.DataStructurePageTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.dsalgo.qa.testcases.DataStructurePageTest@14e2e1c3]" started-at="2022-05-15T15:24:54 PDT" name="Setup" finished-at="2022-05-15T15:24:57 PDT" duration-ms="3096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="firstlinkTest()[pri:0, instance:com.dsalgo.qa.testcases.DataStructurePageTest@14e2e1c3]" started-at="2022-05-15T15:24:57 PDT" name="firstlinkTest" finished-at="2022-05-15T15:25:00 PDT" duration-ms="3569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstlinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcases.DataStructurePageTest@14e2e1c3]" started-at="2022-05-15T15:25:00 PDT" name="tearDown" finished-at="2022-05-15T15:25:00 PDT" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.dsalgo.qa.testcases.DataStructurePageTest@14e2e1c3]" started-at="2022-05-15T15:25:00 PDT" name="Setup" finished-at="2022-05-15T15:25:03 PDT" duration-ms="3068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.dsalgo.qa.testcases.DataStructurePageTest@14e2e1c3]" started-at="2022-05-15T15:25:03 PDT" name="loginTest" finished-at="2022-05-15T15:25:03 PDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcases.DataStructurePageTest@14e2e1c3]" started-at="2022-05-15T15:25:03 PDT" name="tearDown" finished-at="2022-05-15T15:25:04 PDT" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.dsalgo.qa.testcases.DataStructurePageTest@14e2e1c3]" started-at="2022-05-15T15:25:04 PDT" name="Setup" finished-at="2022-05-15T15:25:06 PDT" duration-ms="2913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="moduleTest()[pri:0, instance:com.dsalgo.qa.testcases.DataStructurePageTest@14e2e1c3]" started-at="2022-05-15T15:25:06 PDT" name="moduleTest" finished-at="2022-05-15T15:25:07 PDT" duration-ms="563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moduleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dsalgo.qa.testcases.DataStructurePageTest@14e2e1c3]" started-at="2022-05-15T15:25:07 PDT" name="tearDown" finished-at="2022-05-15T15:25:07 PDT" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dsalgo.qa.testcases.DataStructurePageTest -->
+    </test> <!-- DSPortal Heroku Application Data Structue Test Cases -->
+  </suite> <!-- DSPortal Heroku Application Test Automation Test Suite  -->
+</testng-results>
