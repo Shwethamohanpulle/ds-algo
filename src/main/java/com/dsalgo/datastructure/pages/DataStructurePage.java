@@ -23,7 +23,6 @@ public 	DataStructurePage () {
 	PageFactory.initElements(driver, this);
 }
 
-
 public String validatepageTitle() {
 	return driver.getTitle();
 }
